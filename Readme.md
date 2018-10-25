@@ -4,6 +4,15 @@ Vim, syntax highlighting for ANTLR versions 3 and 4.
 
 ## Installation
 
+#### Pathogen
+
+```sh
+cd ~/.vim/bundle && \
+git clone https://github.com/dylon/vim-antlr.git
+```
+
+[pathogen.vim]: https://github.com/tpope/vim-pathogen
+
 #### Vundle
 
 Add to your `.vimrc`
@@ -13,11 +22,15 @@ Plugin 'mileszs/ack.vim'
 
 Then from within vim call `:PluginInstall`
 
+[Vundle.vim]: https://github.com/VundleVim/Vundle.vim
+
 #### NeoBundle
 
 ```vim
 NeoBundle 'mileszs/ack.vim'
 ```
+
+[neobundle.vim]: https://github.com/Shougo/neobundle.vim
 
 #### Manual
 
