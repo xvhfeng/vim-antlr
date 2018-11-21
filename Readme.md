@@ -11,7 +11,7 @@ cd ~/.vim/bundle && \
 git clone https://github.com/dylon/vim-antlr.git
 ```
 
-See [pathogen.vim] (https://github.com/tpope/vim-pathogen) for more info.
+See [pathogen.vim](https://github.com/tpope/vim-pathogen) for more info.
 
 #### Manual
 
