@@ -19,7 +19,7 @@ Download and install the syntax files from the command line:
 
 ```sh
 mkdir -p "$HOME/.vim/syntax"
-curl -LSso "$HOME/.vim/syntax/antlr3.vim" "https://raw.githubusercontent.com/jrozner/vim-antlr/master/syntax/antlr3.vim"
+curl -LSso "$HOME/.vim/syntax/antlr3.vim" "https://raw.githubusercontent.com/dylon/vim-antlr/master/syntax/antlr3.vim"
 curl -LSso "$HOME/.vim/syntax/antlr4.vim" "https://raw.githubusercontent.com/dylon/vim-antlr/master/syntax/antlr4.vim"
 ```
 
