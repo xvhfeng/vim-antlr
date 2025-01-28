@@ -1,16 +1,16 @@
 " vim: ts=8
 " Vim syntax file
 " Language:     ANTLRv4
-" Maintainer:   Jörn Horstmann (updated by Dylon Edwards)
+" Maintainer:   JÃ¶rn Horstmann (updated by Dylon Edwards)
 " Last Change:  2015-12-15
 
 " For version 5.x: Clear all syntax items
 " For version 6.x: Quit when a syntax file was already loaded
-if version < 600
+" if version < 600
   syntax clear
-elseif exists("b:current_syntax")
-  finish
-endif
+" elseif exists("b:current_syntax")
+"  finish
+" endif
 
 syn keyword antlrKeyword import fragment lexer parser grammar returns locals throws catch finally mode options tokens header members init after channels mode protected public private
 
